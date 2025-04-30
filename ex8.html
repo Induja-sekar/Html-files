@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Home Products Filter</title>
+  <link rel="stylesheet" href="./div6.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>HomeStyle Products</h1>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+
+      <!-- Filter Controls -->
+      <section class="filters">
+        <label>
+          <input type="checkbox" id="show-furniture" checked>
+          Show Furniture
+        </label>
+        <label>
+          <input type="checkbox" id="show-lighting" checked>
+          Show Lighting
+        </label>
+      </section>
+
+      <!-- Products Grid -->
+      <section class="product-grid">
+        <!-- Furniture Products -->
+        <input type="checkbox" id="filter-furniture" checked hidden>
+        <div class="product-card furniture">
+          <img src="https://via.placeholder.com/200x150" alt="Sofa">
+          <h3>Modern Sofa</h3>
+          <p>$899</p>
+        </div>
+        <div class="product-card furniture">
+          <img src="https://via.placeholder.com/200x150" alt="Table">
+          <h3>Dining Table</h3>
+          <p>$499</p>
+        </div>
+
+        <!-- Lighting Products -->
+        <input type="checkbox" id="filter-lighting" checked hidden>
+        <div class="product-card lighting">
+          <img src="https://via.placeholder.com/200x150" alt="Lamp">
+          <h3>Floor Lamp</h3>
+          <p>$149</p>
+        </div>
+        <div class="product-card lighting">
+          <img src="https://via.placeholder.com/200x150" alt="Ceiling Light">
+          <h3>Ceiling Light</h3>
+          <p>$199</p>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 HomeStyle. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
